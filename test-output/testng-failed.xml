@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]">
+  <parameter name="baseUrl" value="http://okmry52647dns.eastus.cloudapp.azure.com:9090"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="mobile" value="no"/>
+  <test name="ChromeTest(failed)">
+    <parameter name="baseUrl" value="http://okmry52647dns.eastus.cloudapp.azure.com:9090"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="mobile" value="no"/>
+    <classes>
+      <class name="com.mindtree.sdet.test.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="clickSignInTest" invocation-numbers="0"/>
+          <include name="tearDownAfterMethod"/>
+          <include name="driverSetUp"/>
+        </methods>
+      </class> <!-- com.mindtree.sdet.test.HomePageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
