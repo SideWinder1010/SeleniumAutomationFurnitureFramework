@@ -42,7 +42,7 @@ public class InitializeDriver{
 		 baseUrl = baseUrlProperty;
 						
 		//Setting up Reporter and Logger for report
-		String reportFile = "./testresources/testreports/testReporter.html";
+		String reportFile = "testresources\\testreports\\testReporter.html";
 		reporter = ReportManager.getReporter(reportFile, true);
 		
 		//logger = reporter.startTest(browserName.toUpperCase() + " - "+ testMethodName);

@@ -12,6 +12,7 @@ import com.mindtree.sdet.pages.PageBase;
 public class DriverManager {
 	
 	public static String driverPath = System.getProperty("user.dir") + "/src/main/resources/drivers/";
+	String newPath  = "src\\main\\resources\\drivers\\";
 	
 	Logger log = Logger.getLogger(PageBase.class);
 	
@@ -31,8 +32,9 @@ public class DriverManager {
 			else if (browser.equalsIgnoreCase("chrome")) {
 				log.info("Setting Browser");
 				log.info("***************"+browser+"***********");
-				System.setProperty("webdriver.chrome.driver",driverPath + "chromedriver");
+				System.setProperty("webdriver.chrome.driver","src\\main\\resources\\drivers\\chromedriver.exe");
 				driver = new ChromeDriver();
+				System.out.println("After driver new");
 
 			} 
 			//If IE then do this

@@ -51,8 +51,8 @@ public class HomePage extends PageBase {
 	public String validateSignInPage(Method method) {
 
 		String title = getTitleForDriver(driver);
-		softassert.assertEquals(title, "Book My Furniture1 - QA(2.3.2)-Final");
-		if (title.equalsIgnoreCase("Book My Furniture1 - QA(2.3.2)-Final")) {
+		softassert.assertEquals(title, "Book My Furniture - QA(2.3.2)-Final");
+		if (title.equalsIgnoreCase("Book My Furniture - QA(2.3.2)-Final")) {
 			extentReportLogger.log(LogStatus.PASS, "***The test case has passed**");
 			PageBase.reportTestCaseStatus(driver, extentReportLogger, method.getName(), true);
 		} else {

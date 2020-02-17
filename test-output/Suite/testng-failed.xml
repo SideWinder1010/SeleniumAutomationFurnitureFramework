@@ -11,10 +11,10 @@
     <classes>
       <class name="com.mindtree.sdet.test.HomePageTest">
         <methods>
+          <include name="homePageTitleTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="clickSignInTest" invocation-numbers="0"/>
+          <include name="clickSignInTest"/>
           <include name="tearDownAfterMethod"/>
           <include name="driverSetUp"/>
         </methods>
