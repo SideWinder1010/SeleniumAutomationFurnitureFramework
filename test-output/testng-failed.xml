@@ -9,16 +9,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="mobile" value="no"/>
     <classes>
-      <class name="com.mindtree.sdet.test.HomePageTest">
+      <class name="com.mindtree.sdet.test.LoginPageTest">
         <methods>
-          <include name="homePageTitleTest"/>
+          <include name="registerUserTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="clickSignInTest"/>
-          <include name="tearDownAfterMethod"/>
-          <include name="driverSetUp"/>
         </methods>
-      </class> <!-- com.mindtree.sdet.test.HomePageTest -->
+      </class> <!-- com.mindtree.sdet.test.LoginPageTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
