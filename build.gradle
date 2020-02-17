@@ -5,7 +5,7 @@
  * For more details take a look at the Java Libraries chapter in the Gradle
  * user guide available at https://docs.gradle.org/3.5/userguide/java_library_plugin.html
  */
-mainClass = 'com.mindtree.sdet.test.HomePageTest'
+
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java-library'
 apply plugin: 'base'
@@ -17,7 +17,6 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
-
 dependencies {
   
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
