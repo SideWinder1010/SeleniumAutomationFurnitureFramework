@@ -38,6 +38,6 @@ dependencies {
 
 test{
 	useTestNG(){
-	suites "src\\main\\resources\\stestng.xml"
+	suites "src\\main\\resources\\testng_regression.xml"
 	}
 }
