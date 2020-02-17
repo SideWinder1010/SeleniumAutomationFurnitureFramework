@@ -11,7 +11,7 @@
 		<parameter name="mobile" value="no" />
 
 		<classes>
-		<class name="com.mindtree.sdet.test.LoginPageTest" />
+		<class name="com.mindtree.sdet.test.HomePageTest" />
 		<!--  <class name="com.mindtree.sdet.test.LoginPageTest" />
 		<class name="com.mindtree.sdet.test.LandingPageTest" />-->
 			
