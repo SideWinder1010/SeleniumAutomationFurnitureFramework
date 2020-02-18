@@ -2638,3 +2638,83 @@ Session ID: 1b610ce789ed2ba323d3ae45ff68b92a
 2020-02-17 05:38:19 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2020-02-17 05:38:19 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2020-02-17 05:38:19 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-02-18 04:15:02 INFO  PageBase:49 - we are here
+2020-02-18 04:15:02 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:15:02 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:15:02 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:15:14 INFO  PageBase:49 - we are here
+2020-02-18 04:15:14 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:15:14 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:15:14 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:15:18 INFO  HomePage:79 - how_to_reg Sign in to your account
+2020-02-18 04:15:23 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-02-18 04:15:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-02-18 04:15:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-02-18 04:15:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-02-18 04:15:23 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-02-18 04:15:24 INFO  PageBase:49 - we are here
+2020-02-18 04:15:24 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:15:24 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:15:24 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:15:29 INFO  HomePage:79 - how_to_reg Sign in to your account
+2020-02-18 04:15:31 INFO  LoginPage:140 - Data entered in form
+2020-02-18 04:15:33 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-02-18 04:15:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-02-18 04:15:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-02-18 04:15:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-02-18 04:15:33 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-02-18 04:15:33 INFO  PageBase:49 - we are here
+2020-02-18 04:15:33 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:15:33 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:15:33 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:15:38 INFO  HomePage:79 - how_to_reg Sign in to your account
+2020-02-18 04:15:39 INFO  LoginPage:79 - SignIn clicked
+2020-02-18 04:15:40 INFO  PageBase:49 - we are here
+2020-02-18 04:15:40 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:15:40 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:15:40 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:15:45 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-02-18 04:15:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-02-18 04:15:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-02-18 04:15:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-02-18 04:15:45 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-02-18 04:29:15 INFO  PageBase:49 - we are here
+2020-02-18 04:29:15 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:29:15 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:29:15 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:29:26 INFO  PageBase:49 - we are here
+2020-02-18 04:29:26 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:29:26 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:29:26 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:29:30 INFO  HomePage:79 - how_to_reg Sign in to your account
+2020-02-18 04:29:35 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-02-18 04:29:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-02-18 04:29:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-02-18 04:29:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-02-18 04:29:35 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-02-18 04:29:36 INFO  PageBase:49 - we are here
+2020-02-18 04:29:36 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:29:36 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:29:36 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:29:40 INFO  HomePage:79 - how_to_reg Sign in to your account
+2020-02-18 04:29:42 INFO  LoginPage:140 - Data entered in form
+2020-02-18 04:29:44 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-02-18 04:29:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-02-18 04:29:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-02-18 04:29:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-02-18 04:29:44 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-02-18 04:29:44 INFO  PageBase:49 - we are here
+2020-02-18 04:29:44 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:29:44 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:29:44 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:29:49 INFO  HomePage:79 - how_to_reg Sign in to your account
+2020-02-18 04:29:50 INFO  LoginPage:79 - SignIn clicked
+2020-02-18 04:29:52 INFO  PageBase:49 - we are here
+2020-02-18 04:29:52 INFO  PageBase:50 - ***************http://okmry52647dns.eastus.cloudapp.azure.com:9090****************
+2020-02-18 04:29:52 INFO  PageBase:33 - Setting Browser
+2020-02-18 04:29:52 INFO  PageBase:34 - ***************chrome***********
+2020-02-18 04:29:57 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-02-18 04:29:57 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-02-18 04:29:57 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-02-18 04:29:57 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-02-18 04:29:57 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

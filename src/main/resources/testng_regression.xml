@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="suit" thread-count="2">
-
+<!-- <suite name="Suite" parallel="suit" thread-count="2"> -->
+<suite name="Suite">
 
 	<test name="ChromeTest">
 
