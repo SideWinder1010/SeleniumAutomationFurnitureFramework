@@ -42,8 +42,9 @@ public class ReportManager {
 			//File destFolder = new File(screenshotPath);
 			presentDir = System.getProperty("user.dir");
 			
-			destinationPath = presentDir + "/screenshots/"+ScreenshotName +".png";
+			//destinationPath = presentDir + "/screenshots/"+ScreenshotName +".png";
 		
+			destinationPath = "./testresources/testreports/"+ScreenshotName +".png";
 			// Cast webdriver to Screenshot
 			TakesScreenshot screenshot = (TakesScreenshot) driver;
 
@@ -65,7 +66,7 @@ public class ReportManager {
 
 		try {
 			String screenshotAbsolutePath = captureScreenshot(driver, screenshotName);
-			screenshotImage = logger.addScreenCapture(screenshotAbsolutePath);
+			screenshotImage = logger.addScreenCapture("./"+screenshotName+".png");
 		} catch (Exception e) {
 			System.out.println("Error capturing screenshot of application\n" + e.getMessage());
 			e.printStackTrace();

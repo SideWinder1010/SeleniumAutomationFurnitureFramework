@@ -105,7 +105,7 @@ public abstract class PageBase {
 		
 		
 		// beforeMethod(browser,method);
-		reportFile = "./test-resources/testreports/testReporter.html";
+		reportFile = "./testresources/testreports/testReporter.html";
 		reporter = ReportManager.getReporter(reportFile, true);
 		extentReportLogger = reporter.startTest(browserString.toUpperCase() + " - " + method.getName());
 		

@@ -2,12 +2,23 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42500" started-at="2020-02-18T04:29:15Z" finished-at="2020-02-18T04:29:57Z">
+  <suite name="Suite" duration-ms="42555" started-at="2020-02-23T02:55:56Z" finished-at="2020-02-23T02:56:39Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="42500" started-at="2020-02-18T04:29:15Z" finished-at="2020-02-18T04:29:57Z">
+    <test name="ChromeTest" duration-ms="42555" started-at="2020-02-23T02:55:56Z" finished-at="2020-02-23T02:56:39Z">
       <class name="com.mindtree.sdet.test.LandingPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T04:29:44Z" finished-at="2020-02-18T04:29:44Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="driverSetUp" is-config="true" duration-ms="4150" started-at="2020-02-23T02:56:25Z" finished-at="2020-02-23T02:56:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.sdet.test.LandingPageTest.loginTextTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-23T02:56:25Z" finished-at="2020-02-23T02:56:25Z">
           <params>
             <param index="0">
               <value>
@@ -28,22 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="driverSetUp" is-config="true" duration-ms="4175" started-at="2020-02-18T04:29:44Z" finished-at="2020-02-18T04:29:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mindtree.sdet.test.LandingPageTest.loginTextTest(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="setUpTestEnv()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="setUpTestEnv" is-config="true" duration-ms="2" started-at="2020-02-18T04:29:48Z" finished-at="2020-02-18T04:29:48Z">
+        <test-method status="PASS" signature="setUpTestEnv()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="setUpTestEnv" is-config="true" duration-ms="2" started-at="2020-02-23T02:56:29Z" finished-at="2020-02-23T02:56:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTestEnv -->
-        <test-method status="PASS" signature="loginTextTest(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="loginTextTest" duration-ms="2377" started-at="2020-02-18T04:29:48Z" finished-at="2020-02-18T04:29:50Z">
+        <test-method status="PASS" signature="loginTextTest(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="loginTextTest" duration-ms="2476" started-at="2020-02-23T02:56:29Z" finished-at="2020-02-23T02:56:32Z">
           <params>
             <param index="0">
               <value>
@@ -54,11 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTextTest -->
-        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="tearDownAfterMethod" is-config="true" duration-ms="1353" started-at="2020-02-18T04:29:50Z" finished-at="2020-02-18T04:29:52Z">
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="tearDownAfterMethod" is-config="true" duration-ms="874" started-at="2020-02-23T02:56:32Z" finished-at="2020-02-23T02:56:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterMethod -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="driverSetUp" is-config="true" duration-ms="4042" started-at="2020-02-18T04:29:52Z" finished-at="2020-02-18T04:29:56Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="driverSetUp" is-config="true" duration-ms="4272" started-at="2020-02-23T02:56:33Z" finished-at="2020-02-23T02:56:37Z">
           <params>
             <param index="0">
               <value>
@@ -69,11 +69,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="setUpTestEnv()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="setUpTestEnv" is-config="true" duration-ms="1" started-at="2020-02-18T04:29:56Z" finished-at="2020-02-18T04:29:56Z">
+        <test-method status="PASS" signature="setUpTestEnv()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="setUpTestEnv" is-config="true" duration-ms="0" started-at="2020-02-23T02:56:37Z" finished-at="2020-02-23T02:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTestEnv -->
-        <test-method status="PASS" signature="clickAllFurnTest(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="clickAllFurnTest" duration-ms="742" started-at="2020-02-18T04:29:56Z" finished-at="2020-02-18T04:29:57Z">
+        <test-method status="PASS" signature="clickAllFurnTest(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="clickAllFurnTest" duration-ms="898" started-at="2020-02-23T02:56:37Z" finished-at="2020-02-23T02:56:38Z">
           <params>
             <param index="0">
               <value>
@@ -84,17 +84,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAllFurnTest -->
-        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="tearDownAfterMethod" is-config="true" duration-ms="586" started-at="2020-02-18T04:29:57Z" finished-at="2020-02-18T04:29:57Z">
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="tearDownAfterMethod" is-config="true" duration-ms="609" started-at="2020-02-23T02:56:38Z" finished-at="2020-02-23T02:56:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="tearDown" is-config="true" duration-ms="47" started-at="2020-02-18T04:29:57Z" finished-at="2020-02-18T04:29:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.sdet.test.LandingPageTest@3fd7a715]" name="tearDown" is-config="true" duration-ms="49" started-at="2020-02-23T02:56:38Z" finished-at="2020-02-23T02:56:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mindtree.sdet.test.LandingPageTest -->
       <class name="com.mindtree.sdet.test.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T04:29:36Z" finished-at="2020-02-18T04:29:36Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="setUp" is-config="true" duration-ms="1" started-at="2020-02-23T02:56:17Z" finished-at="2020-02-23T02:56:17Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="driverSetUp" is-config="true" duration-ms="4060" started-at="2020-02-18T04:29:36Z" finished-at="2020-02-18T04:29:40Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="driverSetUp" is-config="true" duration-ms="4109" started-at="2020-02-23T02:56:17Z" finished-at="2020-02-23T02:56:21Z">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="setUp" is-config="true" duration-ms="885" started-at="2020-02-18T04:29:40Z" finished-at="2020-02-18T04:29:41Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="setUp" is-config="true" duration-ms="959" started-at="2020-02-23T02:56:21Z" finished-at="2020-02-23T02:56:22Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="registerUserTest" duration-ms="2234" started-at="2020-02-18T04:29:41Z" data-provider="getFurnitureTestData" finished-at="2020-02-18T04:29:43Z">
+        <test-method status="PASS" signature="registerUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="registerUserTest" duration-ms="2402" started-at="2020-02-23T02:56:22Z" data-provider="getFurnitureTestData" finished-at="2020-02-23T02:56:25Z">
           <params>
             <param index="0">
               <value>
@@ -168,17 +168,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUserTest -->
-        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="tearDownAfterMethod" is-config="true" duration-ms="817" started-at="2020-02-18T04:29:43Z" finished-at="2020-02-18T04:29:44Z">
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="tearDownAfterMethod" is-config="true" duration-ms="605" started-at="2020-02-23T02:56:25Z" finished-at="2020-02-23T02:56:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="tearDown" is-config="true" duration-ms="47" started-at="2020-02-18T04:29:44Z" finished-at="2020-02-18T04:29:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.sdet.test.LoginPageTest@26aa12dd]" name="tearDown" is-config="true" duration-ms="49" started-at="2020-02-23T02:56:25Z" finished-at="2020-02-23T02:56:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mindtree.sdet.test.LoginPageTest -->
       <class name="com.mindtree.sdet.test.HomePageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="setUp" is-config="true" duration-ms="9" started-at="2020-02-18T04:29:15Z" finished-at="2020-02-18T04:29:15Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="setUp" is-config="true" duration-ms="15" started-at="2020-02-23T02:55:56Z" finished-at="2020-02-23T02:55:56Z">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="driverSetUp" is-config="true" duration-ms="5096" started-at="2020-02-18T04:29:15Z" finished-at="2020-02-18T04:29:20Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="driverSetUp" is-config="true" duration-ms="4942" started-at="2020-02-23T02:55:56Z" finished-at="2020-02-23T02:56:01Z">
           <params>
             <param index="0">
               <value>
@@ -210,11 +210,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="setUp" is-config="true" duration-ms="23" started-at="2020-02-18T04:29:20Z" finished-at="2020-02-18T04:29:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="setUp" is-config="true" duration-ms="19" started-at="2020-02-23T02:56:01Z" finished-at="2020-02-23T02:56:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePageTitleTest(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="homePageTitleTest" duration-ms="4738" started-at="2020-02-18T04:29:20Z" finished-at="2020-02-18T04:29:25Z">
+        <test-method status="PASS" signature="homePageTitleTest(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="homePageTitleTest" duration-ms="4758" started-at="2020-02-23T02:56:01Z" finished-at="2020-02-23T02:56:06Z">
           <params>
             <param index="0">
               <value>
@@ -225,11 +225,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="tearDownAfterMethod" is-config="true" duration-ms="1101" started-at="2020-02-18T04:29:25Z" finished-at="2020-02-18T04:29:26Z">
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="tearDownAfterMethod" is-config="true" duration-ms="1094" started-at="2020-02-23T02:56:06Z" finished-at="2020-02-23T02:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterMethod -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="driverSetUp" is-config="true" duration-ms="4170" started-at="2020-02-18T04:29:26Z" finished-at="2020-02-18T04:29:30Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="driverSetUp" is-config="true" duration-ms="4228" started-at="2020-02-23T02:56:07Z" finished-at="2020-02-23T02:56:11Z">
           <params>
             <param index="0">
               <value>
@@ -240,11 +240,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="setUp" is-config="true" duration-ms="1" started-at="2020-02-18T04:29:30Z" finished-at="2020-02-18T04:29:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickSignInTest(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="clickSignInTest" duration-ms="4906" started-at="2020-02-18T04:29:30Z" finished-at="2020-02-18T04:29:35Z">
+        <test-method status="PASS" signature="clickSignInTest(java.lang.reflect.Method)[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="clickSignInTest" duration-ms="4952" started-at="2020-02-23T02:56:11Z" finished-at="2020-02-23T02:56:16Z">
           <params>
             <param index="0">
               <value>
@@ -255,11 +251,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSignInTest -->
-        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="tearDownAfterMethod" is-config="true" duration-ms="593" started-at="2020-02-18T04:29:35Z" finished-at="2020-02-18T04:29:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-23T02:56:11Z" finished-at="2020-02-23T02:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="tearDownAfterMethod" is-config="true" duration-ms="610" started-at="2020-02-23T02:56:16Z" finished-at="2020-02-23T02:56:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="296" started-at="2020-02-18T04:29:35Z" finished-at="2020-02-18T04:29:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.sdet.test.HomePageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="299" started-at="2020-02-23T02:56:17Z" finished-at="2020-02-23T02:56:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
